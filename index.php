@@ -37,11 +37,10 @@
 					<?php
 
 					if (isset($_POST['resolveBtn']) and strlen($_POST['name'])>3 and strlen($_POST['name'])<32) {
-			                  $name = htmlspecialchars($_POST['name']);
 			
-			                     $resolved = @file_get_contents("http://vbooter.org/api/skype.php?username={$name}&proxy-detect=1");
-		                     echo $resolved;
-		
+			           $resolved = @file_get_contents("http://vbooter.org/api/skype.php?username={$name}&proxy-detect=1");
+		                  echo $resolved;
+		}
 		else {
 		
 		
