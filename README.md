@@ -9,5 +9,6 @@ A web based Skype resolver powered by vBooter.org + API included
 ----------
 API Usage:
 
-> http://vbooter.org/api/skype.php?username=[SKYPRE-USERNAME]&proxy-detect=[0/1]
+> [http://vbooter.org/api/skype.php?username=\[SKYPRE-USERNAME\]&proxy-detect=\[0/1\]](http://vbooter.org/api/skype.php?username=)
+
 
