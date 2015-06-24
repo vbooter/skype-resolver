@@ -1,0 +1,17 @@
+.parallax-container {
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.parallax-container .parallax-item {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

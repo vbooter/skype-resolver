@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'SintonyRegular';
+  src: url("../fonts/sintony/Sintony-Regular-webfont.eot");
+  src: url("../fonts/sintony/Sintony-Regular-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/sintony/Sintony-Regular-webfont.woff") format("woff"), url("../fonts/sintony/Sintony-Regular-webfont.ttf") format("truetype"), url("../fonts/sintony/Sintony-Regular-webfont.svg#SintonyRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.parallax-size-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.parallax-repeat {
+  background-repeat: repeat;
+}
+
+.parallax-overlay {
+  background-image: url("../gfx/noise.png");
+}
+
+.parallax-container {
+  display: none;
+}
+
+.wrap {
+  overflow: hidden;
+  *zoom: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+}
+
+.section {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.subscribe .header {
+  text-align: center;
+}
+.subscribe .header .logo {
+  overflow: hidden;
+  *zoom: 1;
+  margin-bottom: 20px;
+}
+.subscribe .header h1, .subscribe .header h2, .subscribe .header h3, .subscribe .header h4, .subscribe .header h5 {
+  color: #fff;
+  text-shadow: #323232 0 1px 0;
+  font-family: 'SintonyRegular';
+}
+.subscribe .header p {
+  color: #6d2018;
+  text-shadow: white 0 1px 0;
+}
+.subscribe .inputsubs {
+  line-height: 3.4em;
+  padding: 0 10px;
+  height: 3.4em;
+}
+.subscribe .buttonsubs {
+  line-height: 3.4em;
+  padding: 0 10px;
+  height: 3.4em;
+  border: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-weight: normal;
+  background-color: #114359;
+  text-shadow: #0C2D3A 0 1px 0;
+}
+.subscribe .msgbox {
+  display: none;
+}
+.subscribe .custom-alert-box {
+  display: none;
+  font-weight: normal;
+  margin-bottom: 0;
+  border: 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -ms-border-radius: 3px 3px 0 0;
+  -o-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+.subscribe .social {
+  text-align: center;
+}
+
+.countdown {
+  background-color: #113D4D ;
+  border-top: 1px solid #113D4D ;
+  border-top: 1px solid #113D4D ;
+  -webkit-box-shadow: inset #4690AF 0 1px 0;
+  -moz-box-shadow: inset #4690AF 0 1px 0;
+  box-shadow: inset #4690AF 0 1px 0;
+}
+.countdown .clock {
+  overflow: hidden;
+  *zoom: 1;
+  display: table;
+  margin: auto;
+}
+.countdown .clock .point {
+  overflow: hidden;
+  *zoom: 1;
+  float: left;
+  margin: 0 5px;
+}
+.countdown .clock .point .pvalue {
+  overflow: hidden;
+  *zoom: 1;
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+  text-shadow: #4690AF 0 1px 0;
+  margin: 10px 10px 0 10px;
+}
+.countdown .clock .point .ptext {
+  overflow: hidden;
+  *zoom: 1;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  text-shadow: #4690AF 0 1px 0;
+  padding: 8px 0 8px 0;
+}
+.countdown .wrappbar {
+  overflow: hidden;
+  *zoom: 1;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  background-color: rgba(250, 250, 250, 0.35);
+  height: 7px;
+  width: 75%;
+  margin: 20px auto 0 auto;
+}
+.countdown .wrappbar .pbar {
+  overflow: hidden;
+  *zoom: 1;
+  margin: auto;
+  height: 7px;
+  background-color: #af3427;
+  background-image: url("../gfx/imgbg.png");
+  border-top: 1px solid #c0392b;
+  -webkit-box-shadow: inset #c83b2d 0 1px 0;
+  -moz-box-shadow: inset #c83b2d 0 1px 0;
+  box-shadow: inset #c83b2d 0 1px 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  width: 4;
+}
